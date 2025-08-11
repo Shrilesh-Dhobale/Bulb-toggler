@@ -1,7 +1,20 @@
+body{
+    margin:0;
+    padding:0;
+}
 #heading {
     text-align: center;
     margin-top: 20px;
     font-family: cursive;
     text-shadow: 2px 2px 4px #000000;
 }
-
+#card {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
