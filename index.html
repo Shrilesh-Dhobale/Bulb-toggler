@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body id="body">
     <h1 id="heading">Bulb Toggler</h1>
     <div id="card">
         <img id="bulb-off" class="bulb" src="lightbulb.png" alt="Bulb Off">
         <div class="btn-container">
-            <button id="btn" class="btn">On</button>
-            <button id="btn" class="btn">Off</button>
+            <button id="btn-on" onclick="turnon()" class="btn">On</button>
+            <button id="btn-off" onclick="turnoff()" class="btn">Off</button>
         </div>
     </div>
 </body>
