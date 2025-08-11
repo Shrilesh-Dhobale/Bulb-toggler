@@ -1,7 +1,6 @@
 body{
     margin:0;
     padding:0;
-    background-color: aqua;
 }
 #heading {
     text-align: center;
@@ -32,8 +31,13 @@ body{
     font-size: 16px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
-    background-color: #4CAF50; /* Green */
+    border-radius: 5px; /* Green */
     color: white;
     transition: background-color 0.3s ease;
+}
+#btn-on {
+    background-color: #4CAF50; /* Green */
+}
+#btn-off {
+    background-color: #f44336; /* Red */
 }
